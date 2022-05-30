@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+<meta charset="utf-8">
+<title>Wonder EventoLand</title>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+<link rel="stylesheet" href="css/index.css">
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+	<!--LINKS -->
+	<!--  JavaScript: jQuery, Popper.js, Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+
+	<!-- CABECERA -->
+	<div class="top">
+		<div class="container">
+			<h1>¡Bienvenido a Wonder Eventoland!</h1>
+			<!-- BARRA DE NAVEGACIÓN -->
+			<header class="d-flex justify-content-center py-3" style="background-color: white;">
+				<ul class="nav nav-pills">
+					<li class="nav-item b2"><a href="#"
+						class="arriba nav-link disabled">Eventos antiguos</a></li>
+					<li class="nav-item b2"><a href="#sobrenosotros"
+						class="arriba nav-link active" aria-current="page">Wonder EL</a></li>
+					<li class="nav-item b2"><a href="#popup"
+						class=" arriba nav-link active">Donaciones</a></li>
+					<li class="nav-item b2"><a href="login.html"
+						class="arriba nav-link active">Iniciar sesión</a></li>
+				</ul>
+			</header>
+		</div>
+	</div>
+
+	<!-- MAIN CONTENIDO -->
+	<main>
+		<div class="container border">
+			<!-- CAROUSEL DE IMAGENES DE PASADOS EVENTOS -->
+			<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#myCarousel"
+						data-bs-slide-to="0" class="active" aria-current="true"
+						aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#myCarousel"
+						data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#myCarousel"
+						data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<!-- 1 -->
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="imagenes/evento1.jpg"
+							alt="First slide">
+						<div class="container">
+							<div class="carousel-caption text-start">
+								<h1 class="borde">Reyes Magos: Nuestros primeros evento.</h1>
+								<p>Conmemoramos el aniversario de Wonder EventoLand con
+									fotografías de las primeras fiestas que hemos realizado.</p>
+							</div>
+						</div>
+					</div>
+					<!-- 2 -->
+					<div class="carousel-item">
+						<img class="d-block w-100" src="imagenes/evento2.jpg"
+							alt="First slide">
+						<div class="container">
+							<div class="carousel-caption">
+								<h1 class="borde">Wonder EventoLand</h1>
+								<p>Hace ya dos años que los grupos de vecinos nos juntamos y
+									empezamos a realizar eventos para los niños huérfanos.</p>
+							</div>
+						</div>
+					</div>
+					<!-- 3 -->
+					<div class="carousel-item">
+						<img class="d-block w-100" src="imagenes/evento3.jpg"
+							alt="First slide">
+						<div class="container">
+							<div class="carousel-caption text-end">
+								<h1 class="borde">El evento favorito de los peques.</h1>
+								<p>Únete a un grupo de vecinos y participa en esta
+									maravillosa acción.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- BOTONES CAROUSEL -->
+				<button class="carousel-control-prev" type="button"
+					data-bs-target="#myCarousel" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button"
+					data-bs-target="#myCarousel" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+
+			<!-- CARD DE PROXIMOS EVENTOS -->
+			<!-- PROXIMOS EVENTOS -->
+			<div class="container px-4 py-5" id="custom-cards">
+				<h2 class="pb-2 border-bottom">Próximos eventos</h2>
+				<div
+					class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+					<!-- IMG 1 -->
+					<div class="col">
+						<div
+							class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+							style="background-image: url('imagenes/1.jpg');">
+							<div
+								class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+								<h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold borde">Reyes
+									Magos</h2>
+								<ul class="d-flex list-unstyled mt-auto">
+									<li class="d-flex align-items-center me-3" style="background-color: rgb(0, 0, 0, 0.5) !important;"><small>Goya</small>
+									</li>
+									<li class="d-flex align-items-center" style="background-color: rgb(0, 0, 0, 0.5) !important;"><small>05/01/2023</small>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- IMG 2 -->
+					<div class="col">
+						<div
+							class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+							style="background-image: url('imagenes/2.jpg');">
+							<div
+								class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+								<h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold borde">Reyes
+									Magos</h2>
+								<ul class="d-flex list-unstyled mt-auto">
+									<li class="d-flex align-items-center me-3" style="background-color: rgb(0, 0, 0, 0.5) !important;"><small>Retiro</small>
+									</li>
+									<li class="d-flex align-items-center" style="background-color: rgb(0, 0, 0, 0.5) !important;"><small>05/01/2023</small>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- IMG 3 -->
+					<div class="col">
+						<div
+							class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+							style="background-image: url('imagenes/3.jpg');">
+							<div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+								<h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold borde">Reyes Magos</h2>
+								<ul class="d-flex list-unstyled mt-auto">
+									<li class="d-flex align-items-center me-3" style="background-color: rgb(0, 0, 0, 0.5) !important;"><small>Las
+											Tablas</small></li>
+									<li class="d-flex align-items-center" style="background-color: rgb(0, 0, 0, 0.5) !important;"><small>05/01/2021</small>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- NEWSLETTER, BOLETIN INFORMATIVO -->
+			<div
+				class="row d-flex justify-content-center align-items-center rows">
+				<div class="col-md-6">
+					<div class="card span">
+						<span class="d-block mt-3">¡Suscríbete a nuestro boletin
+							informativo para obtener información<br> sobre los eventos
+							que organizamos con varios días de antelación!
+						</span>
+						<div class="mx-5">
+							<div class="input-group mb-3 mt-4">
+								<input type="text" class="form-control"
+									placeholder="Introduzca su email"
+									aria-label="Recipient's username"
+									aria-describedby="button-addon2">
+								<button class="btn btn-warning border-rad" type="button"
+									id="button-addon2" data-toggle="modal"
+									data-target="#exampleModal">Suscríbete</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--ADVERTANCIA DE SUSCRIPCIÓN EXISTOSA PARA EL BOLETÍN-->
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+				aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">
+								Acción realiza correctamente
+								<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                  				<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                  <path
+										d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+                </svg>
+							</h5>
+							<button type="button" class="close" data-dismiss="modal"
+								aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">La información se ha enviado
+							exitosamente a su correo. En caso de que no vea el correo,
+							recuerde revisar su correo spam.</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- POP UP DE DONACIONES-->
+			<div class="popup" id="popup">
+				<div class="popup-inner">
+					<div class="popupphoto">
+						<img src="imagenes/popup.png" alt="">
+					</div>
+					<div class="popuptext">
+						<h1 class="modal-header" style="font-size: 1.5em">Haz tu donación aquí</h1>
+						<!--Paypal-->
+						<div class="col">
+							<div class="body-text">
+								<p style="font-size: 1em">
+									¡Gracias a tú donación podemos seguir haciendo estos
+									maravillosos eventos para los más peques! <br>Dónanos a
+									Wonder Eventoland
+								</p>
+							</div>
+							<div class="paypal-content" align="center">
+								<form action="https://www.paypal.com/signin" method="post"
+									target="_top">
+									<input class="paypal-img" type="image" src="imagenes/donar.png" name="submit" title="PayPal - ¡La forma más segura y fácil de pagar online!" alt="Donate with PayPal button" height="70px" width="200px" />
+								</form>
+							</div>
+						</div>
+					</div>
+					<a class="closepopup" style="background-color: #FFC023; color: black !important; font-weight: bolder !important;" href="#">X</a>
+				</div>
+			</div>
+			
+			<!-- POP UP SOBRE NOSOTROS-->
+			<div class="popup" id="sobrenosotros">
+				<div class="popup-inner">
+					<div class="popupphoto">
+						<img src="imagenes/popup2.jpg" alt="">
+					</div>
+					<div class="popuptext" id="popup">
+						<h1 class="modal-header" style="font-size: 1.5em">Sobre nosotros</h1>
+						<!--Información-->
+						<div class="col">
+							<div class="body-text">
+								<p style="font-size: 1em">
+									¿Qué es Wonder EventoLand? Somos una asociación de vecinos que nos dedicamos a realizar eventos 
+									para los más pequeños. Destacamos por realizar eventos sobre los Reyes Magos, continúa leyendo
+									para saber dónde serán nuestras próximas actividades.
+									<br>
+									<br>
+									<small>Por Cristina Shan y Jane Orosco.</small>
+								</p>
+							</div>
+						</div>
+					</div>
+					<a class="closepopup"  style="background-color: #FFC023; color: black !important; font-weight: bolder !important;" id="popup" href="#">X</a>
+				</div>
+			</div>
+
+			<!-- FOOTER -->
+			<br>
+			<hr>
+			<footer class="container">
+				<p class="float-end">
+					<a href="#">Volver arriba</a>
+				</p>
+				<p>
+					&copy; 2018–2022 Wonder EL, S. A. <a href="#">Privacidad
+						&nbsp;&nbsp;&nbsp;</a><a href="#">Términos y condiciones</a>
+				</p>
+			</footer>
+		</div>
+	</main>
+</body>
+
+</html>

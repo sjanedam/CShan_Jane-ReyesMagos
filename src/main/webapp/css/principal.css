@@ -1,0 +1,25 @@
+.contenido {
+  padding: 50px;
+}
+
+.logo {
+  width: 150px !important;
+}
+
+h3, h5 {
+  color: #215F78 !important;
+}
+
+button {
+  background-color: #FFC023 !important;
+  border-color: #FFC023 !important;
+  font-weight: bold !important;
+}
+
+button:hover {
+  color: black !important;
+}
+
+.card-group {
+  border-color: lightgrey !important;
+}

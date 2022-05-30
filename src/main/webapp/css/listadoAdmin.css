@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.small {
+	font-size: 20px !important;
+}
+
+.b1, .btn {
+  background-color: #FFC023 !important;
+  border-color: #FFC023 !important;
+  font-weight: bold;
+}
+
+.b1:hover, .btn:hover {
+	color: black !important;
+}
+
+.b1:hover, .b1:active, .b1:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	
+}
+
+.nav-item {
+	color: #215F78 !important;
+	font-weight: bold !important; 
+}
+
+.formulario {
+	padding: 30px !important;
+}
+

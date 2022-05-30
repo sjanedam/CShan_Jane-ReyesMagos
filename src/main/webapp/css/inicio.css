@@ -1,0 +1,79 @@
+.btn {
+  margin-left: auto;
+  margin-left: auto;
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  padding: 15px;
+  width: 550px !important;
+}
+
+.recordatorio {
+  width: 70%;
+  text-align: center !important;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+img {
+  width: 70% !important;
+  margin: 0 auto;
+}
+
+h5 {
+  text-align: center !important;
+  color: #215F78 !important;
+}
+
+form {
+  text-align: center !important;
+}
+
+label {
+  color: #FFC023;
+  font-weight: bold;
+}
+
+input[type=text], input[type=password] {
+  width: 75% !important;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+input:focus {
+  border-color: #FFC023 !important;
+  box-shadow: none !important;
+}
+
+button {
+  border-radius: 50px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-size: 0.75em !important;
+  margin-bottom: 15px;
+  width: 40%;
+}
+
+button:hover {
+  color: black !important;
+}
+
+.b1 {
+  background-color: #FFC023 !important;
+  border-color: #FFC023 !important;
+  font-weight: bold;
+}
+
+.b2 {
+  background-color: white !important;
+  border-color: lightgrey !important;
+  color: #FFC023 !important;
+  font-weight: bold;
+}
+
+
+

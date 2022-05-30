@@ -1,0 +1,171 @@
+h1, h2 {
+  margin-top: 20px;
+  text-align: center !important;
+  color: #215F78 !important;
+}
+
+/* BORDE DEL DIV */
+.border {
+  padding: 15px;
+}
+
+/* PROXIMOS EVENTOS NOMBRE */
+.borde {
+  color: white !important;
+  text-shadow: 2px 2px black;
+}
+
+
+/* LISTA DE LUGARES */
+li {
+  color: WHITE !important;
+  font-weight: bold !important;
+  padding: 5px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  border-radius: 10px;
+}
+
+.nav-item {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.span {
+  text-align: center;
+  padding: 10px;
+  width: auto;
+}
+
+#button-addon2 {
+  background-color: #FFC023;
+  border-color: #FFC023;
+  font-weight: bold;
+}
+
+.boletin {
+  margin: auto !important;
+}
+
+.arriba {
+  background-color: #FFC023 !important;
+  border-color: lightgrey !important;
+  color: white !important;
+  font-weight: bold;
+  border-radius: 50px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-size: 1em !important;
+  margin-left: 0px;
+  text-decoration: none;
+}
+
+.arriba:hover {
+  color: black !important;
+  text-decoration: none !important;
+}
+.arriba:visited {
+  text-decoration: none !important;
+}
+a {
+  color: #47BDFF !important;
+  text-decoration: none;
+}
+
+/* PARA EL POP UP */
+
+.popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+  visibility: hidden;
+  opacity: 0;
+  overflow: hiden;
+  transition: .64s ease-in-out;
+}
+.popup-inner {
+  position: relative;
+  bottom: -100vw;
+  right: -100vh;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  max-height: 600px;
+  width: 60%;
+  height: 80%;
+  background-color: #fff;
+  transform: rotate(32deg);
+  transition: .64s ease-in-out;
+}
+.popupphoto {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 40%;
+  height: 100%;
+  overflow: hidden;
+}
+.popupphoto img {
+  width: auto;
+  height: 100%;
+}
+.popuptext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+  padding: 4rem;
+}
+.popuptext h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  color: #0A0A0A;
+}
+.popuptext p {
+  font-size: 1.5rem;
+  color: #686868;
+  line-height: 1.5;
+}
+
+.popuptext a {
+ text-decoration: none;
+ color: black !important;
+}
+.popup:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup:target .popup-inner {
+  bottom: 0;
+  right: 0;
+  transform: rotate(0);
+}
+
+.closepopup {
+  position: absolute;
+  position: absolute;
+  right: -1rem;
+  top: -1rem;
+  width: 3rem;
+  height: 3rem;
+  font-size: .875rem;
+  font-weight: 300;
+  border-radius: 100%;
+  background-color:  #FFC023 !important ;
+  z-index: 4;
+  color: black !important;
+  line-height: 3rem;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
